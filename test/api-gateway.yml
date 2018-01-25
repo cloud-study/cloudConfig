@@ -1,0 +1,10 @@
+zuul:
+  routes:
+    eureka-client:
+      path: /api/eureka-client/**
+      serviceId: eureka-client
+      stripPrefix: false
+    euraka-consumer:
+       path: /api/eureka-consumer/**
+       serviceId: eureka-consumer
+       stripPrefix: false
