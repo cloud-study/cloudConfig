@@ -1,2 +1,4 @@
 file-name:
   name: application-dev
+eureka-client:
+  name: helloWord-application-dev
