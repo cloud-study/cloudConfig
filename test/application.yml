@@ -1,4 +1,4 @@
 file-name:
   name: application-test
-eureka-client:
-  name: helloWord-application-test
+#eureka-client:
+#  name: helloWord-application-test
