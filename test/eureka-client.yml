@@ -1,2 +1,5 @@
 #eureka-client:
 #  name: helloWord-test
+
+test:
+  name: helloWord-test
