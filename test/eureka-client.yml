@@ -1,2 +1,2 @@
-eureka-client:
-  name: helloWord-test
+#eureka-client:
+#  name: helloWord-test
