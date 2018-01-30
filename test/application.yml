@@ -2,3 +2,9 @@ file-name:
   name: application-test
 #eureka-client:
 #  name: helloWord-application-test
+
+
+# spring boot 1.5.X 以上默认开通了安全认证    配置refresh接口
+management:
+  security:
+    enabled: false
