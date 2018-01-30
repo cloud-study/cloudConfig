@@ -3,7 +3,12 @@ file-name:
 eureka-client:
   name: helloWord-application-dev
 
-
+spring:
+  rabbitmq:
+    host: ${RABBIT_HOST:localhost}
+    port: ${RABBIT_PORT:5672}
+    username: ${RABBIT_USERNAME:guest}
+    password: ${RABBIT_PASSWORD:guest}
 # spring boot 1.5.X 以上默认开通了安全认证    配置refresh接口
 management:
   security:
