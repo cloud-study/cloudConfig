@@ -25,5 +25,5 @@ management:
 logging:
   level:
     java.sql: debug
-    com.hand.zhishinet: debug
+    com.cloud: debug
     org.springframework.data.redis: debug
