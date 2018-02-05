@@ -19,11 +19,8 @@ management:
   security:
     enabled: false
 
-
-
-
 logging:
   level:
-    java.sql: debug
-    com.cloud: debug
-    org.springframework.data.redis: debug
+    java.sql: DEBUG
+    com.cloud: DEBUG
+    org.springframework.data.redis: DEBUG
