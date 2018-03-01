@@ -9,11 +9,11 @@ spring:
     port: ${RABBIT_PORT:5672}
     username: ${RABBIT_USERNAME:guest}
     password: ${RABBIT_PASSWORD:guest}
-#  datasource:
-#    url: jdbc:mysql://localhost:3306/secondhand?characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=5&useSSL=false
-#    username: root
-#    password: admin
-#    driver-class-name: com.mysql.jdbc.Driver
+  datasource:
+    url: jdbc:mysql://localhost:3306/secondhand?characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=5&useSSL=false
+    username: root
+    password: admin
+    driver-class-name: com.mysql.jdbc.Driver
 # spring boot 1.5.X 以上默认开通了安全认证    配置refresh接口
 management:
   security:
