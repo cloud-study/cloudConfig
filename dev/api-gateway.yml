@@ -13,3 +13,7 @@ zuul:
        path: /api/eureka-consumer/**
        serviceId: eureka-consumer
        stripPrefix: false
+    auth-server:
+       path: /oauth-api/**
+       serviceId: auth-server
+       stripPrefix: false
