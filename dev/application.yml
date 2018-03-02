@@ -10,7 +10,7 @@ spring:
     username: ${RABBIT_USERNAME:guest}
     password: ${RABBIT_PASSWORD:guest}
   datasource:
-    url: jdbc:mysql://localhost:3306/secondhand?characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=5&useSSL=false
+    url: jdbc:mysql://localhost:3306/springsecurity?characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=5&useSSL=false
     username: root
     password: admin
     driver-class-name: com.mysql.jdbc.Driver
