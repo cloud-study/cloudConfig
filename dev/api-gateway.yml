@@ -17,3 +17,7 @@ zuul:
        path: /oauth-api/**
        serviceId: auth-server
        stripPrefix: false
+    zauth-server:
+       path: /zauth-server/**
+       serviceId: zauth-server
+       stripPrefix: false
